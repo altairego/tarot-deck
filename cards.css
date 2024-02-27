@@ -1,0 +1,127 @@
+.card {
+    width: 120px;
+    height: 224px;
+    background-image: url(pics/tarot.png);
+    background-position: 0 0;
+}
+
+span.card {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+}
+
+.deck span.card {
+    margin-right: -100px;
+}
+
+.deck span.card.card-color-trump {
+    margin-right: -80px;
+}
+
+/* hearts spades diamonds clubs trumps / j c q k */
+
+.card.card-color-heart {
+    background-position-x: 0;
+}
+
+.card.card-color-spade {
+    background-position-x: -120px;
+}
+
+.card.card-color-diamond {
+    background-position-x: -240px;
+}
+
+.card.card-color-club {
+    background-position-x: -360px;
+}
+
+.card.card-color-trump {
+    background-position-x: -480px;
+}
+
+.card.card-val-1 {
+    background-position-y: 0;
+}
+
+.card.card-val-2 {
+    background-position-y: -224px;
+}
+
+.card.card-val-3 {
+    background-position-y: -448px;
+}
+
+.card.card-val-4 {
+    background-position-y: -672px;
+}
+
+.card.card-val-5 {
+    background-position-y: -896px;
+}
+
+.card.card-val-6 {
+    background-position-y: -1120px;
+}
+
+.card.card-val-7 {
+    background-position-y: -1344px;
+}
+
+.card.card-val-8 {
+    background-position-y: -1568px;
+}
+
+.card.card-val-9 {
+    background-position-y: -1792px;
+}
+
+.card.card-val-10 {
+    background-position-y: -2016px;
+}
+
+.card.card-val-11, .card.card-val-j {
+    background-position-y: -2240px;
+}
+
+.card.card-val-12, .card.card-val-c {
+    background-position-y: -2464px;
+}
+
+.card.card-val-13, .card.card-val-q {
+    background-position-y: -2688px;
+}
+
+.card.card-val-14, .card.card-val-k {
+    background-position-y: -2912px;
+}
+
+.card.card-val-15 {
+    background-position-y: -3136px;
+}
+
+.card.card-val-16 {
+    background-position-y: -3360px;
+}
+
+.card.card-val-17 {
+    background-position-y: -3584px;
+}
+
+.card.card-val-18 {
+    background-position-y: -3808px;
+}
+
+.card.card-val-19 {
+    background-position-y: -4032px;
+}
+
+.card.card-val-20 {
+    background-position-y: -4256px;
+}
+
+.card.card-val-21 {
+    background-position-y: -4480px;
+}
+

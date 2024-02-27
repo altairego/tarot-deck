@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Tarot</title>
+
+        <link rel="stylesheet" href="tarot.css">
+        <link rel="stylesheet" href="cards.css">
+    </head>
+    <body>
+        <div id="app-tarot">
+            <h1 :title="status">Tarot</h1>
+            <div>{{message}}</div>
+            <div id="mydeck" class="deck">
+                <span class="card card-color-heart card-val-3"></span>
+                <span class="card card-color-heart card-val-6"></span>
+                <span class="card card-color-heart card-val-10"></span>
+                <span class="card card-color-heart card-val-q"></span>
+                <span class="card card-color-heart card-val-k"></span>
+                <span class="card card-color-spade card-val-4"></span>
+                <span class="card card-color-spade card-val-j"></span>
+                <span class="card card-color-spade card-val-c"></span>
+                <span class="card card-color-trump card-val-1"></span>
+                <span class="card card-color-trump card-val-7"></span>
+                <span class="card card-color-trump card-val-14"></span>
+                <span class="card card-color-trump card-val-18"></span>
+                <span class="card card-color-trump card-val-21"></span>
+            </div>
+            <div id="playground" class="ground">
+                <span class="card card-color-spade card-val-2"></span>
+                <span class="card card-color-spade card-val-8"></span>
+                <span class="card card-color-spade card-val-k"></span>
+                <span class="card card-color-trump card-val-11"></span>
+                <span class="card card-color-trump card-val-13"></span>
+            </div>
+        </div>
+        <script src="js/vue.js"></script>
+        <script src="js/__objects.js"></script>
+        <script src="js/class.deck.js"></script>
+        <script src="js/class.tarot.js"></script>
+        <script src="js/app.tarot.js"></script>
+	</body>
+</html>
